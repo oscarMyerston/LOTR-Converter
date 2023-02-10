@@ -9,9 +9,9 @@ import SwiftUI
 
 struct ExchangeRate: View {
     
-    @State private  var leftImage: String
-    @State private  var text: String
-    @State private  var rightImage: String
+    @State   var leftImage: String
+    @State   var text: String
+    @State   var rightImage: String
     
     var body: some View {
         HStack {
